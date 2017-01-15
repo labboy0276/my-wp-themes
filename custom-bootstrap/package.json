@@ -1,0 +1,21 @@
+{
+  "name": "custom-bootstrap",
+  "version": "0.0.1",
+  "description": "Custom Boostrap Theme Sassy SaSS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "authors": [
+    "John Ouellet <john@kalamuna.com>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-sass": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-cssmin": "latest"
+  },
+  "dependencies": {
+    "load-grunt-tasks": "latest"
+  }
+}

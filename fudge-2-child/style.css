@@ -1,0 +1,134 @@
+/*
+ Theme Name:   Fudge 2 Child
+ Theme URI:    http://www.showthemes.com/conference-wordpress-theme-fudge
+ Description:  Fudge 2 Child Theme
+ Author:       John O - Peace River Area
+ Author URI:   http://sitesbyjohn.com
+ Template:     fudge-2
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  fudge-2-child
+*/
+
+.time-schedule__pic {
+  width: 375px;
+  height: 80px;
+}
+
+.site__header-top {
+  background: rgba(0,0,0,0.1);
+}
+
+.site__header.fixed .site__header-top,
+.header_background .site__header-top {
+  background: black;
+}
+
+.home .site__header.fixed .site__header-top,
+.home .header_background .site__header-top {
+  background: rgba(0,0,0,0.6);
+}
+
+.speakers_load a.btn {
+  display: none;
+}
+
+.speakers__photo {
+  height: 100px;
+}
+
+.speakers__person {
+  height: 255px;
+}
+
+.speakers__post {
+  color: #555;
+}
+
+.speaker-profile .description p a {
+  color: blue;
+}
+
+.speaker-profile .schedule {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .tickets__item {
+    min-height: 350px;
+    padding: 45px 38px 30px 46px;
+  }
+}
+
+.where__layout .where__text,
+.where__links where_view-all {
+  display: none;
+}
+
+.site__footer {
+  padding: 25px 0;
+}
+
+.site__footer h3 {
+  font-size: 24px;
+  color: white;
+}
+
+.page-id-2430 .content__text-block.heading,
+.page-id-739 .content__text-block.heading,
+.page-id-13 .content__text-block.heading,
+.page-id-2591 .content__text-block.heading,
+.page-id-757 .content__text-block.heading,
+.page-id-760 .content__text-block.heading {
+  background-color: #000;
+  max-width: 100%;
+  padding: 25px 0;
+}
+
+.page-id-739 .hero.hero-full__schedule {
+  display: none;
+}
+
+.document-gallery .document-icon {
+  padding-bottom: 15px !important;
+  max-width: 200px !important;
+}
+
+.document-gallery .document-icon .title {
+  color: red;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.document-gallery .document-icon-row.descriptions p {
+  font-size: 18px;
+  padding: 15px 0;
+  margin: 0;
+}
+
+.speakers__layout.members-top {
+  margin-top: 25px;
+}
+
+.speakers__item.members .speakers__person {
+  height: 225px;
+  border: 1px solid black;
+}
+
+.speakers__item.members .speakers__name {
+  margin-top: 25px;
+  height: 60px;
+}
+
+.speakers__item.members .speakers__post {
+  max-height: inherit;
+}
+
+.speakers__item.members .speakers__post p {
+  color: black;
+}
+
+.speakers__item.members .speakers__post a {
+  color: red;
+}

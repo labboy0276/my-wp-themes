@@ -1,0 +1,21 @@
+/*
+Theme Name: Custom Bootstrap
+Description: A Custom Bootstrap Theme Developed from a Start Bootstrap Template
+Author: John Ouellet
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+A Custom Bootsrap Theme Developed from a Start Bootstrap Template.
+*/
+
+/*
+This file is just used to identify the theme in WordPress.
+The compiled CSS output can be found in /dist/css/built.min.css
+The SASS sources for it can be found in /src/
+
+Just run npm install and then grunt to compile the SASS.
+*/
+

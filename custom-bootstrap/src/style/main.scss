@@ -1,0 +1,24 @@
+/**
+ * Main file that pulls in everything from your project.
+ * except specifics in components.
+ */
+
+// Base:
+@import "base/base";
+@import "base/mixins";
+@import "base/typography";
+@import "base/extendables";
+@import "base/global";
+
+// Components:
+@import "components/header";
+@import "components/sections";
+@import "components/slider";
+@import "components/footer";
+
+// Pages:
+@import "pages/about";
+@import "pages/contact";
+@import "pages/front";
+@import "pages/gallery";
+@import "pages/services";

@@ -1,0 +1,80 @@
+/**
+ * Sections Sass Component File
+ */
+
+.content-section-a {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+.content-section-b {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+  @media (max-width: $tablet - 1) {
+    display: none;
+  }
+}
+
+.banner {
+  position: relative;
+  padding: 50px 0;
+  color: #f8f8f8;
+  background: url(../../img/front-services.jpg) no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 1;
+  }
+  .row {
+    &:last-of-type {
+      padding-top: 25px;
+    }
+  }
+  h2 {
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+    text-align: center;
+  }
+  h3 {
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 2em;
+    text-align: center;
+  }
+  p {
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 1.2em;
+    text-align: center;
+  }
+}

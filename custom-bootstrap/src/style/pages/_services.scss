@@ -1,0 +1,20 @@
+/**
+ * Services Page Sass File.
+ */
+
+#services-page {
+  .content-section-a {
+    padding: 0;
+    &.section-1, &.section-2, &.section-3, &.section-4 {
+      .row {
+        padding: 50px 0;
+        border-bottom: 1px solid $dark-green;
+      }
+    }
+    &.section-5 {
+      .row {
+        padding: 50px 0;
+      }
+    }
+  }
+}

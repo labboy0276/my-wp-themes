@@ -1,0 +1,20 @@
+/**
+ * Gallery Page Sass File.
+ */
+
+#gallery-page {
+  .gallery-page {
+    @media (min-width: $container) {
+      min-height: 500px;
+    }
+    @media (min-width: $page-wrapper) {
+      min-height: 530px;
+    }
+    h2 {
+      text-align: center;
+    }
+    .foogallery-container {
+      padding: 15px 0 25px;
+    }
+  }
+}

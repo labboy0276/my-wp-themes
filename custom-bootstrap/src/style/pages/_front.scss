@@ -1,0 +1,20 @@
+/**
+ * Front Page Sass File.
+ */
+
+#front-page {
+  .content-section-a {
+    .col-image {
+      @media (min-width: $container) {
+        padding-top: 30px;
+      }
+    }
+  }
+  .content-section-b {
+    .col-image {
+      @media (min-width: $container) {
+        padding-top: 10px;
+      }
+    }
+  }
+}

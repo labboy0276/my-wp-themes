@@ -1,0 +1,105 @@
+/**
+ * Header Sass Component File
+ */
+
+header.desktop {
+  @media (max-width: $tablet - 1) {
+    display: none;
+  }
+  .above-nav {
+    padding-bottom: 5px;
+    .contact {
+      text-align: right;
+      h2 {
+        padding: 10px 0;
+        margin: 0;
+        font-size: 36px;
+        color: $dark-green;
+      }
+      h3, h4 {
+        padding: 2px 0;
+        margin: 0;
+        color: $aqua;
+      }
+    }
+  }
+
+  .navbar-default {
+    background-color: transparent;
+    border-color: $dark-green;
+    border-radius: 0;
+    margin-bottom: 0;
+    .navbar-collapse {
+      background-color: $dark-green;
+      color: white;
+      border-color: transparent;
+      text-align: center;
+      .navbar-nav {
+        display: inline-block;
+        float: none;
+        li {
+          a {
+            color: white;
+            font-size: 22px;
+            text-transform: uppercase;
+            padding: 20px 30px 15px;
+            line-height: 15px;
+            &:hover, &:focus {
+              color: $aqua;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+header.mobile {
+  @media (min-width: $tablet) {
+    display: none;
+  }
+  padding-bottom: 10px;
+  .logo {
+    img {
+      @media (max-width: $mobile-portrait - 1) {
+        width: 75%;
+        height: 75%;
+      }
+    }
+  }
+  .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    .navbar-toggle {
+      border-color: $dark-green;
+      margin: 8px 0;
+      &:hover, &:focus {
+        background-color: transparent;
+      }
+      .icon-bar {
+        width: 100%;
+        background-color: $dark-green;
+      }
+      .menu-resp {
+        color: $dark-green;
+      }
+    }
+    .navbar-collapse {
+      background-color: transparent;
+      li {
+        a {
+          color: $dark-green;
+          font-size: 18px;
+          text-transform: uppercase;
+          text-align: center;
+          &:hover, &:focus {
+            color: $aqua;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+}

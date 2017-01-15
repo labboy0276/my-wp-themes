@@ -1,0 +1,21 @@
+/**
+ * Contact Page Sass File.
+ */
+
+#contact-page {
+  h2 {
+    text-align: center;
+  }
+  .nf-before-form-content {
+    display: none;
+  }
+  .submit-wrap {
+    text-align: center;
+    .btn {
+      background-color: $dark-green;
+      color: white;
+      padding: 10px;
+      font-size: 18px;
+    }
+  }
+}

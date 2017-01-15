@@ -1,0 +1,42 @@
+////////////////////////
+// Extendables help you reuse CSS and are similar to mixins, but they only output
+// their CSS once, adding selectors to the CSS that you link to it with
+// @extend. You can extend the CSS of any selector, but a good way is to create
+// a placeholder selector that doesn't render in your CSS unless you extend it
+// somewhere:
+//
+// // Placeholder selector:
+// %my-extendable {
+//   // Reusable CSS...
+// }
+//
+// // Attach .some-class to it.
+// .some-class {
+//   @extend %my-extendable;
+// }
+//
+// More info: http://blog.teamtreehouse.com/extending-placeholder-selectors-with-sass
+////////////////////////
+
+%bs-full-width {
+  .main-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .col {
+    padding: 0;
+  }
+}
+
+%transition {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}

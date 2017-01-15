@@ -1,0 +1,43 @@
+/**
+ * Footer Sass Component File
+ */
+
+
+footer {
+  &.page {
+    &.desktop {
+      @media (max-width: $tablet - 1) {
+        display: none;
+      }
+      padding: 25px 0;
+      background-color: $light-black;
+      color: white;
+      h3 {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+
+footer {
+  &.page {
+    &.mobile {
+      @media (min-width: $tablet) {
+        display: none;
+      }
+      padding: 5px 0;
+      background-color: rgba($light-black, 0.9);
+      color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      z-index: 55;
+      h5 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+    }
+  }
+}

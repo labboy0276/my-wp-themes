@@ -1,0 +1,25 @@
+////////////////////////
+// Global variables and imports for your project.
+////////////////////////
+
+// Colors:
+$dark-green: #045455;
+$aqua: #10938d;
+$light-black: #333333;
+
+// Fonts:
+$base-font-size: 16px;
+
+// Breakpoints:
+$break-small: max-width 480px;
+$break-medium: max-width 768px;
+$break-large: max-width 980px;
+
+//Breakpoint responsive (using max-width)
+$mobile-portrait: 480px;
+$mobile: 567px;
+$mobile-landscape: 600px;
+$tablet: 767px;
+$tablet-portait: 1024px;
+$container: 991px;
+$page-wrapper: 1200px;
