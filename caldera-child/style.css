@@ -1,0 +1,64 @@
+/*
+ Theme Name:   Caldera Child
+ Theme URI:    https://www.templatemonster.com/demo/59027.html
+ Description:  Caldera Child Theme
+ Author:       John Ouellet
+ Author URI:   http://www.kalamuna.com
+ Template:     caldera
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  caldera-child
+*/
+
+.tm-posts_item_meta i.material-icons {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .showcase-panel {
+    padding: 40px 15px 55px;
+  }
+}
+@media (min-width: 1200px) {
+  .showcase-panel {
+    padding: 80px 15px 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .site-header.centered .header-container__flex {
+    position: relative;
+  }
+
+  .header_caption {
+    position: absolute !important;
+  }
+
+  .site-header.centered .main-navigation .menu-toggle {
+    position: absolute;
+    right: 0;
+  }
+
+  .site-header.centered .main-navigation .menu {
+    padding-top: 10px;
+  }
+}
+
+.cherry-projects-wrapper .projects-item .hover-content:hover,
+.tm_pb_cherry_projects_terms .projects-item-instance:hover .hover-content {
+  background: #eb6f31 !important;
+}
+
+.tm_pb_builder #tm_builder_outer_content .tm_pb_divider_0,
+.tm_pb_builder #tm_builder_outer_content .tm_pb_divider_1 {
+  margin-top: 50px !important;
+}
+
+.tm_pb_builder #tm_builder_outer_content .tm_pb_column_1_2.tm_pb_column_4 {
+  background-image: url(/wp-content/uploads/2017/01/about-sidebar-compressor.jpg) !important;
+}
+
+.tm_pb_builder #tm_builder_outer_content .tm_pb_text_3 {
+  padding-bottom: 30px !important;
+}
