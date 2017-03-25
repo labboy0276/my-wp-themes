@@ -15,6 +15,33 @@
   display: none;
 }
 
+#tm_builder_outer_content .tm_pb_module .project-terms-media a {
+  color: white;
+}
+
+.tm_pb_builder #tm_builder_outer_content .projects-terms-container .hover-content {
+  -webkit-justify-content: center !important;
+  justify-content: center !important;
+}
+
+.cherry-projects-wrapper .projects-item .hover-content:hover,
+.tm_pb_cherry_projects_terms .projects-item-instance:hover .hover-content {
+  background: #eb6f31 !important;
+}
+
+.tm_pb_builder #tm_builder_outer_content .tm_pb_divider_0,
+.tm_pb_builder #tm_builder_outer_content .tm_pb_divider_1 {
+  margin-top: 50px !important;
+}
+
+.tm_pb_builder #tm_builder_outer_content .tm_pb_column_1_2.custom-collumn.tm_pb_column_3  {
+  background-image: url(/wp-content/uploads/2017/01/about-sidebar-compressor.jpg) !important;
+}
+
+.tm_pb_builder #tm_builder_outer_content .tm_pb_text_3 {
+  padding-bottom: 30px !important;
+}
+
 @media (min-width: 768px) {
   .showcase-panel {
     padding: 40px 15px 55px;
@@ -45,20 +72,3 @@
   }
 }
 
-.cherry-projects-wrapper .projects-item .hover-content:hover,
-.tm_pb_cherry_projects_terms .projects-item-instance:hover .hover-content {
-  background: #eb6f31 !important;
-}
-
-.tm_pb_builder #tm_builder_outer_content .tm_pb_divider_0,
-.tm_pb_builder #tm_builder_outer_content .tm_pb_divider_1 {
-  margin-top: 50px !important;
-}
-
-.tm_pb_builder #tm_builder_outer_content .tm_pb_column_1_2.tm_pb_column_4 {
-  background-image: url(/wp-content/uploads/2017/01/about-sidebar-compressor.jpg) !important;
-}
-
-.tm_pb_builder #tm_builder_outer_content .tm_pb_text_3 {
-  padding-bottom: 30px !important;
-}

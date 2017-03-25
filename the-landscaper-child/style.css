@@ -1,0 +1,113 @@
+/*
+ Theme Name:   The Landscaper Child
+ Description:  The Landscaper Child Theme
+ Author:       John Ouellet
+ Author URI:   http://sitesbyjohn.com
+ Template:     the-landscaper
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  the-landscaper-child
+*/
+
+a.btn-primary:hover, a.btn-primary:focus {
+  background-color: #007f00 !important;
+}
+
+.esg-navigationbutton:hover, .esg-navigationbutton:focus,
+.esg-navigationbutton:hover::before, .esg-navigationbutton:focus::before {
+  background-color: #007f00 !important;
+  color: white !important;
+  border-color: #007f00 !important;
+}
+
+.jumbotron .btn-outline {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+a.btn-outline:hover, a.btn-outline:focus {
+  background-color: #AAAAAA !important;
+}
+
+.icon-box.icon-small span {
+  font-size: 14px;
+}
+
+#pg-181-4 {
+  margin-bottom: 0 !important;
+}
+
+#pg-11-1 .textwidget p {
+  color: white;
+}
+
+/** BLOG HIDDING  */
+#pg-11-6 { display: none !important; }
+
+.nf-form-cont .nf-form-title,
+.nf-form-layout .nf-form-fields-required {
+  display: none;
+}
+
+.nf-form-content input[type="text"],
+.nf-form-content input[type="tel"],
+.nf-form-content input[type="date"],
+.nf-form-content input[type="datetime"],
+.nf-form-content input[type="email"],
+.nf-form-content input[type="number"],
+.nf-form-content input[type="search"],
+.nf-form-content input[type="time"],
+.nf-form-content input[type="url"],
+.nf-form-content input[type="password"],
+.nf-form-content textarea,
+.nf-form-content select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  height: 45px;
+}
+.nf-form-content textarea {
+  resize: none;
+  overflow: hidden;
+}
+.nf-form-content input[type="button"],
+.nf-form-content input[type="submit"]{
+  background-color: #00a800;
+  border: 1px solid #00a800;
+  display: inline-block;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nf-form-content input[type="button"]:hover,
+.nf-form-content input[type="submit"]:hover {
+  background-color: #007f00 !important;
+  color: white !important;
+  border-color: #007f00 !important;
+}
+
+
+@media (max-width: 480px) {
+  .navbar-brand {
+      width: 60% !important;
+  }
+  #jumbotron-fullwidth .item .carousel-heading h1 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+}
